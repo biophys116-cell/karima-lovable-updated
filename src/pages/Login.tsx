@@ -137,12 +137,6 @@ export default function Login() {
               {tab === 'login' ? 'Sign In' : 'Create Account'}
             </button>
           </form>
-
-          {tab === 'login' && (
-            <p className="text-center text-xs text-muted-foreground mt-4">
-              Admin: admin@karimaahlebait.com / admin123
-            </p>
-          )}
         </div>
       </motion.div>
     </div>
